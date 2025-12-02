@@ -1,18 +1,31 @@
-/landing-page-rema-viva
-│
-├── /frontend
-│   ├── landing-page.tsx     # Seu código React atual
-│   ├── package.json
-│   └── .env.local           # Variáveis do frontend
-│
-├── /backend
-│   ├── server.js
-│   ├── package.json
-│   ├── .env
-│   └── /routes
-│       ├── pagarme.js
-│       └── webhooks.js
-│
-└── README.md
+lpremaviva/frontend/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── ui/
+│   │   └── sections/
+│   ├── hooks/
+│   │   ├── useCountdown.ts
+│   │   └── useForm.ts
+│   ├── services/
+│   ├── types/
+│   │   └── index.ts
+│   ├── utils/
+│   │   └── constants.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── .eslintrc.cjs
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
 
 
